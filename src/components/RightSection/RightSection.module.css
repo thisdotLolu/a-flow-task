@@ -1,0 +1,22 @@
+.right{
+    height:100vh;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    position: relative;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rightText{
+    position: absolute;
+    width: 250px;
+    border: 1px solid red;
+    color:white;
+}
